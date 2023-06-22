@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(230, 234, 238);
+}
+
+.home {
+  text-align: center;
+}
+
+.btn-add {
+  border-radius: 50%;
+}
+
+.btn-contact-display {
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.input-search {
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 30px auto;
+  border: 1px solid rgb(187, 187, 187);
+}
+
+.card-add {
+  text-align: center;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 20px auto 0;
+}
+
+.input-add {
+  border-radius: 8px;
+}
+
+.login-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-add {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.btn-trash {
+  margin: 5px;
+}
+
+.message:hover {
+  cursor: pointer;
+}
+
+.contact-card-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.contact-card {
+  width: 250px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 1px 3px 1px rgb(206, 206, 206);
+}
